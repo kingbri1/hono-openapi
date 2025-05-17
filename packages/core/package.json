@@ -1,7 +1,7 @@
 {
-  "name": "hono-openapi",
-  "description": "OpenAPI schema generator for Hono",
-  "version": "0.5.0",
+  "name": "@kingbri1/hono-openapi",
+  "description": "OpenAPI schema generator for Hono (v0.5 pre)",
+  "version": "0.5.0-pre1",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.cjs",
@@ -20,17 +20,17 @@
     "arktype",
     "effect"
   ],
-  "homepage": "https://github.com/rhinobase/hono-openapi",
+  "homepage": "https://github.com/kingbri1/hono-openapi",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rhinobase/hono-openapi.git",
+    "url": "git+https://github.com/kingbri1/hono-openapi.git",
     "directory": "packages/core"
   },
   "bugs": {
-    "url": "https://github.com/rhinobase/hono-openapi/issues"
+    "url": "https://github.com/kingbri1/hono-openapi/issues"
   },
   "peerDependencies": {
     "@hono/standard-validator": "^0.1.2",
