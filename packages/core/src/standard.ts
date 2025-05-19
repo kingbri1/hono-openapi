@@ -66,7 +66,6 @@ export function validator<
     [uniqueSymbol]: {
       resolver: async (config: OpenAPIRouteHandlerConfig) =>
         generateValidatorDocs(target, await resolver(schema).builder(config)),
-      metadata: { schemaType: "input" },
     },
   });
 }
