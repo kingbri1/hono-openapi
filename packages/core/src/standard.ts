@@ -1,5 +1,5 @@
 import { type Hook, sValidator } from "@hono/standard-validator";
-import { toOpenAPISchema } from "@standard-community/standard-openapi";
+import { toOpenAPISchema } from "@kingbri1/standard-openapi";
 import type { StandardSchemaV1 } from "@standard-schema/spec";
 import type { Env, Input, MiddlewareHandler, ValidationTargets } from "hono";
 import type {

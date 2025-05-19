@@ -34,7 +34,7 @@
   },
   "peerDependencies": {
     "@hono/standard-validator": "^0.1.2",
-    "@standard-community/standard-openapi": "^0.1.0",
+    "@kingbri1/standard-openapi": "0.1.2-pre1",
     "@standard-schema/spec": "^1.0.0",
     "hono": "^4.6.13",
     "openapi-types": "^12.1.3"
